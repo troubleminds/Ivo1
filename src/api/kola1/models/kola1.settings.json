@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kola1s",
+  "info": {
+    "name": "kola1"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "kola1": {
+      "type": "string"
+    }
+  }
+}

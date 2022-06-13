@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mishkas",
+  "info": {
+    "name": "mishka"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nym": {
+      "type": "integer"
+    }
+  }
+}

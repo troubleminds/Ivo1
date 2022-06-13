@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mishkas",
+      "handler": "mishka.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mishkas/count",
+      "handler": "mishka.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mishkas/:id",
+      "handler": "mishka.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/mishkas",
+      "handler": "mishka.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mishkas/:id",
+      "handler": "mishka.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mishkas/:id",
+      "handler": "mishka.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

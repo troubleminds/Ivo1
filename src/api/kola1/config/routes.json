@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/kola-1-s",
+      "handler": "kola1.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kola-1-s/count",
+      "handler": "kola1.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kola-1-s/:id",
+      "handler": "kola1.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/kola-1-s",
+      "handler": "kola1.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/kola-1-s/:id",
+      "handler": "kola1.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/kola-1-s/:id",
+      "handler": "kola1.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
